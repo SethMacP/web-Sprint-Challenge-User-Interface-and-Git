@@ -47,8 +47,13 @@ table {
 	border-spacing: 0;
 }
 
+/* CSS RESET ABOVE */
+/* SITE STYLING BELOW */
+
+
 * {
     box-sizing: border-box;
+
 }
 
 html, body {
@@ -64,6 +69,33 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+}
+header {
+    width: 800px;
+    margin: 0 auto;
+}
+.head-content {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    margin: 20px 0px;
+    
+ 
+}
+header nav{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    color:black;
+}
+header div.head-content nav a{
+    color:black;
+    text-decoration: none;
+}
+header img {
+    display:flex;
+    margin: 20px 0px;
 }
 
 .container {
@@ -143,4 +175,20 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+#steelGrey {
+    background-color: #333f48;
+    border: 2px solid #b9975b;
+    color:#b9975b;
+}
+#gold{
+    background-color: #b9975b;
+    border: 2px solid #010101;
+    color:#010101;
+}
+#black {
+    background-color: #010101;
+    border: 2px solid #E31837;
+    color:#E31837;
 }
