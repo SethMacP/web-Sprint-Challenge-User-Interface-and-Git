@@ -57,21 +57,29 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
-I'd tell them about a stoplight. The Green/Yellow/Red are always in the same positions (sometimes Left to right vs up and down). The order is important because there are people that are colorblind that rely on the _position_ of the light to know the color. The same applies to our code. "Header", much like your head on your body, is at the top. "Footer", much like your feet on your body, is at the bottom. Why would coding be any different?
+  I'd tell them about a stoplight. The Green/Yellow/Red are always in the same positions (sometimes Left to right vs up and down). The order is important because there are people that are colorblind that rely on the _position_ of the light to know the color. The same applies to our code. "Header", much like your head on your body, is at the top. "Footer", much like your feet on your body, is at the bottom. Why would coding be any different?
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
+  Block elements take up their entire 'line'. The next element is sent to the line below it.
+  Inline elements can be squeezed in side by side, much like what happens when you flex-direction: row;
 
 3. What are the 4 areas of the box model?
 
-Content [The "what"]
-Padding [The space around the "what"]
-Border [The space between the padding and content]
-Margin [The space between other content and the border]
+  Content [The "what"]
+  Padding [The space around the "what"]
+  Border [The space between the padding and content]
+  Margin [The space between other content and the border]
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+  The cross axis (vertical line)
+
+
 
 5. Explain why git is valuable to a team of developers.
+  2 major reasons come to my mind first as why git is so important:
+    1. It allows you to version control. Oh, I made a mistake that compounded over and over? Let's just revert back to the previous code save I made and start over without risking deleting good code.
+    2. Audit Trail - See who checked it out & see what changes they made. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
