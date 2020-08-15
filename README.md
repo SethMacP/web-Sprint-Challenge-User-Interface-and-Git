@@ -137,5 +137,15 @@ Note: Please make sure you are using flexbox to layout your website. Floats, inl
 After finishing your required elements, you can push your work further. These goals may or may not be things you have learned in this module but they build on the material you just studied. Time allowing, stretch your limits and see if you can deliver on the following optional goals:
 
 * [x] refactor your HTML, make sure it's indented properly, clean, readable, you have written appropriate comments where necessary and that all attributes (required and encouraged) are filled out correctly.  
-* [ ] Ensure your CSS is organized and readable, you've seperated your code by section and that you are using descriptive class names and adding classes in your HTML where styles repeat rather than rewrting the same styles over again
-* [ ] Use a flex item property of your choice when laying out a section of your website, ensure you can explain how and why you've used this property 
+* [x] Ensure your CSS is organized and readable, you've seperated your code by section and that you are using descriptive class names and adding classes in your HTML where styles repeat rather than rewrting the same styles over again
+* [x] Use a flex item property of your choice when laying out a section of your website, ensure you can explain how and why you've used this property 
+
+FLEX ITEM CHOICE:
+  Flex-flow (Since you get bonus answers!)
+    Flex-Flow is a shortcut that allows you to do both [flex-direction] and [flex-wrap]. 
+
+    [flex-direction] is in my opinion the _KEY_ command for the bulk of how your flexbox will work. You have two 'directions' which you can modify with [-reverse]. The two directions are [row] and [column].
+
+    Row will lay them out horizontally across the main axis while column will lay them out vertically across the cross axis. Reverse will start them from the opposite corners and run in the opposite direction.
+
+    [flex-wrap] applies certain modifiers to the direction. You have three options here [wrap][nowrap][wrap-reverse]. You are telling the system if you want to overflow out of the container with this one (or not) and if you want to go in the opposite direction of [flex-direction].
