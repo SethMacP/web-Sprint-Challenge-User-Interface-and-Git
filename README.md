@@ -77,9 +77,9 @@ Edit this document to include your answers after each question. Make sure to lea
 
 
 5. Explain why git is valuable to a team of developers.
-  2 major reasons come to my mind first as why git is so important:
-    1. It allows you to version control. Oh, I made a mistake that compounded over and over? Let's just revert back to the previous code save I made and start over without risking deleting good code.
-    2. Audit Trail - See who checked it out & see what changes they made. 
+    2 major reasons come to my mind first as why git is so important:
+      1. It allows you to version control. Oh, I made a mistake that compounded over and over? Let's just revert back to the previous code save I made and start over without risking deleting good code.
+      2. Audit Trail - See who checked it out & see what changes they made. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
